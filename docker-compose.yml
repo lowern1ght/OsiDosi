@@ -1,0 +1,22 @@
+version: '3.4'
+
+services:
+  clientapp:
+    image: osidosi/react-vite
+    build:
+      context: src/client-app
+      dockerfile: ./Dockerfile
+    environment:
+      - node=production
+    ports:
+      - 3000:3000
+  rabitmq: 
+    image: rabbitmq:3.11-management
+    restart: always
+    hostname: rabbitmq
+    environment:
+      - RABBITMQ_DEFAULT_USER=adminr
+      - RABBITMQ_DEFAULT_PASS=,frfkjdf
+    ports:
+      - 15672:15672
+      - 5672:5672
