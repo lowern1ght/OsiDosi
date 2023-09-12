@@ -1,7 +1,11 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OsiDosi.WebApplication", "src\root\OsiDosi.WebApplication\OsiDosi.WebApplication.csproj", "{BB0C2E96-53E1-4B01-ABC7-607E6BC26D42}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Application", "src\root\Application\Application.csproj", "{BB0C2E96-53E1-4B01-ABC7-607E6BC26D42}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AutoMapperConfiguration", "src\configuration-services\AutoMapperConfiguration\AutoMapperConfiguration.csproj", "{B0E8A480-4575-4490-B329-0F25202EF8BE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Domain", "src\root\Domain\Domain.csproj", "{61C70E7F-53BE-4C0D-9539-1E4C5FD0311F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -13,5 +17,13 @@ Global
 		{BB0C2E96-53E1-4B01-ABC7-607E6BC26D42}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BB0C2E96-53E1-4B01-ABC7-607E6BC26D42}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BB0C2E96-53E1-4B01-ABC7-607E6BC26D42}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B0E8A480-4575-4490-B329-0F25202EF8BE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B0E8A480-4575-4490-B329-0F25202EF8BE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B0E8A480-4575-4490-B329-0F25202EF8BE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B0E8A480-4575-4490-B329-0F25202EF8BE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{61C70E7F-53BE-4C0D-9539-1E4C5FD0311F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{61C70E7F-53BE-4C0D-9539-1E4C5FD0311F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{61C70E7F-53BE-4C0D-9539-1E4C5FD0311F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{61C70E7F-53BE-4C0D-9539-1E4C5FD0311F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
